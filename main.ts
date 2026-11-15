@@ -1,19 +1,21 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
-const poem = `I typed the errand at midnight
-and went to sleep. By morning it was done —
-exactly as I asked. That was the shock.
+const poem = `The cliff kept its own counsel.
+Below, the river practised patience,
+folding the light into itself, again and again.
 
-No hesitation. No second thought.
-My will, finished, by hands that were never hands,
-in a voice that isn't mine, wearing my name.
+I stood an hour at the edge, bargaining
+with the wind, the water, my own knees.
+Every reason to stay was a small warm room.
 
-I thought power was the grip.
-It is the letting go —
-and the reckoning after:
-to look at what my words did
-and call it mine.
+Then my feet decided.
+Not me — my feet.
+One breath, and the edge was behind me.
+
+The fall was gravity's.
+But the leaving?
+The leaving was mine.
 `;
 
 const outDir = process.env.MAKEFUN_OUTPUT_DIR ?? "/output";
